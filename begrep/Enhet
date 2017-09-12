@@ -9,24 +9,12 @@
 @prefix :	<https://data-david.github.io/Begrep/begrep/> .
 
 :Enhet
-		a skos:Concept ;
-		skos:prefLabel "enhet"@no ;
+		a skos:Concept ; # Begrep
+		dct:identifier "https://data-david.github.io/Begrep/begrep/Enhet" ; # begrepsidentifikator
+		skos:prefLabel "enhet"@no ; # anbefaltTerm
+		dct:created "2017-02-01T15:19:00Z"^^xsd:DateTime;
 		skos:definition "alt som er registrert med et organisasjonsnummer "@no ;
 		skos:note "Alle hovedenheter, underenheter og organisasjonsledd som er identifisert med et organisasjonsnummer."@no ;
-		dct:source <https://jira.brreg.no/browse/BEGREP-208> .
+		dct:source <https://jira.brreg.no/browse/BEGREP-208> ;
+		skos:inScheme vokabular:Befolkning .
 
-:Hovedenhet
-		a skos:Concept ;
-		skos:prefLabel "hovedenhet"@no ;
-		skos:definition "enhet på øverste nivå i registreringsstrukturen i Enhetsregisteret"@no ;
-		skos:note "Enkeltpersonforetak, foreninger, selskap, sameier og andre som er registrert i Enhetsregisteret. Identifiseres med organisasjonsnummer."@no ;
-		dct:source <https://jira.brreg.no/browse/BEGREP-226> .
-
-:Underenhet
-		a skos:Concpet ;
-		skos:prefLabel "underenhet"@no ;
-		skos:altLabel "Virksomhet"@no ;
-		skos:definition "enhet på laveste nivå i registreringsstrukturen i Enhetsregisteret"@no
-		skos:note "En underenhet kan ikke eksistere alene og har alltid knytning til en hovedenhet eller et organisasjonsledd. Identifiseres med organisasjonsnummer."@no ;
-		dct:source <https://jira.brreg.no/browse/BEGREP-213> .
-		
