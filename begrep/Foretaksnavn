@@ -9,5 +9,4 @@
 
 :Foretaksnavn a skos:Concept ;
     skos:prefLabel "Foretaksnavn"@no ;
-    skos:definition "Foretaksnavn er…"@no ;
-    .
+    skos:definition "Foretaksnavn er…"@no .
