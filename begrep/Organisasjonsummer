@@ -10,4 +10,4 @@
 :Organisasjonsnummer a skos:Concept ;
     skos:prefLabel "Organisasjonsnummer"@no ;    
     skos:definition "Organisasjonsnummer er"@no ;
-	skos:altLabel "Orgnr"@no .
+    skos:altLabel "Orgnr"@no .
