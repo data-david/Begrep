@@ -8,6 +8,6 @@
 @prefix : <https://data-david.github.io/Begrep/begrep/> .
 
 :Organisasjonsnummer a skos:Concept ;
-    skos:prefLabel "Organisasjonsnummer"@no ;
-    skos:altLabel "Orgnr"@no ; 
-    skos:definition "Organisasjonsnummer er"@no .
+    skos:prefLabel "Organisasjonsnummer"@no ;    
+    skos:definition "Organisasjonsnummer er"@no ;
+	skos:altLabel "Orgnr"@no .
