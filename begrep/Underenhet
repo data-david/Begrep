@@ -10,7 +10,7 @@
 
 
 :Underenhet
-		a skos:Concpet ;
+		a skos:Concept ;
 		skos:prefLabel "underenhet"@no ;
 		skos:altLabel "Virksomhet"@no ;
 		skos:definition "enhet på laveste nivå i registreringsstrukturen i Enhetsregisteret"@no ;
