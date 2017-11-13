@@ -5,9 +5,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://tinyurl.com/br-> .
+@prefix : <https://data-david.github.io/Begrep/begrep/> .
 
 :Foretaksnavn a skos:Concept ;
     skos:prefLabel "Foretaksnavn"@no ;
-    skos:definition "Foretaksnavn er…"@no ;
-    .
+    skos:definition "Foretaksnavn er…"@no .

@@ -13,7 +13,7 @@
 		a skos:Concpet ;
 		skos:prefLabel "underenhet"@no ;
 		skos:altLabel "Virksomhet"@no ;
-		skos:definition "enhet på laveste nivå i registreringsstrukturen i Enhetsregisteret"@no
+		skos:definition "enhet på laveste nivå i registreringsstrukturen i Enhetsregisteret"@no ;
 		skos:note "En underenhet kan ikke eksistere alene og har alltid knytning til en hovedenhet eller et organisasjonsledd. Identifiseres med organisasjonsnummer."@no ;
 		dct:source <https://jira.brreg.no/browse/BEGREP-213> .
 		
