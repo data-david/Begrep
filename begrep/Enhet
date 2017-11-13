@@ -9,12 +9,13 @@
 @prefix :	<https://data-david.github.io/Begrep/begrep/> .
 
 :Enhet
-		a skos:Concept ; # Begrep
-		dct:identifier "https://data-david.github.io/Begrep/begrep/Enhet" ; # begrepsidentifikator
-		skos:prefLabel "enhet"@no ; # anbefaltTerm
+		a skos:Concept ;                                                      # Begrep
+		dct:identifier "https://data-david.github.io/Begrep/begrep/Enhet" ;   # begrepsidentifikator
+		skos:prefLabel "enhet"@no ;                                           # anbefaltTerm
 		dct:created "2017-02-01T15:19:00Z"^^xsd:DateTime;
 		skos:definition "alt som er registrert med et organisasjonsnummer "@no ;
 		skos:note "Alle hovedenheter, underenheter og organisasjonsledd som er identifisert med et organisasjonsnummer."@no ;
-		dct:source <https://jira.brreg.no/browse/BEGREP-208> ;
-		skos:inScheme vokabular:Befolkning .
+		dct:source <https://jira.brreg.no/browse/BEGREP-208> ;                #
+		dct:owner <http://data.brreg.no/enhetsregisteret/enhet/974760673> ;   #
+		skos:inScheme vokabular:Befolkning .                                  # 
 
