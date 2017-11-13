@@ -4,17 +4,18 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix :	<https://data-david.github.io/Begrep/begrep/> .
 
 :Organisasjonsnummer a skos:Concept ;
     dct:identifier "https://data-david.github.io/Begrep/begrep/Organisasjonsnummer" ; # begrepsidentifikator
-	skos:prefLabel "organisasjonsnummer"@no ;                                         # anbefalt term
-	dct:created "2017-02-01T15:19:00Z"^^xsd:DateTime;                                 #
+    skos:prefLabel "organisasjonsnummer"@no ;                                         # anbefalt term
+    dct:created "2017-02-01T15:19:00Z"^^xsd:DateTime;                                 #
     skos:definition "Et nisifret nummer som tildeles av Enhetsregisteret for en organisasjon som skal operere som en offentlig aktør"@no ; # definisjon
-	skos:note "Organisasjonsnummeret brukes av Enhetsregisteret og samhandlende registre" ; # 
-	dct:source <https://jira.brreg.no/browse/BEGREP-4> ;
+    skos:note "Organisasjonsnummeret brukes av Enhetsregisteret og samhandlende registre" ; # 
+    dct:source <https://jira.brreg.no/browse/BEGREP-4> ;
     skos:altLabel "Orgnr"@no;   
-	skos:altLabel "Orgid"@no ;	
-	dct:owner <http://data.brreg.no/enhetsregisteret/enhet/974760673> ;
-    .
+    skos:altLabel "Orgid"@no ;	
+    dct:owner <http://data.brreg.no/enhetsregisteret/enhet/974760673> .
+    
