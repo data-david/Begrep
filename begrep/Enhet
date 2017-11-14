@@ -17,6 +17,6 @@
 		skos:definition "alt som er registrert med et organisasjonsnummer "@no ;
 		skos:note "Alle hovedenheter, underenheter og organisasjonsledd som er identifisert med et organisasjonsnummer."@no ;
 		dct:source <https://jira.brreg.no/browse/BEGREP-208> ;                #
-		dct:owner <http://data.brreg.no/enhetsregisteret/enhet/974760673> ;   #
+		dct:creator <http://data.brreg.no/enhetsregisteret/enhet/974760673> ;   #
 		skos:inScheme vokabular:Befolkning .                                  
 
